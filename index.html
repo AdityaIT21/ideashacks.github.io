@@ -306,21 +306,48 @@ li.dropdown {
 					</div>
 				</div>
 			</section>
-			<!-- end Service section -->
-			<section id="portfolio">
-				<div class="container">
-					<div class="row">
-					
-						<div class="sec-title text-center wow animated fadeInDown">
-							<h2>IN THE MEDIA</h2>
-						</div>
-						<div><a href="https://in.finance.yahoo.com/news/ideashacks-co-upcycling-buildings-designing-043031345.html"> <h2><p style="text-align:center;">"IDEASHACKS Co. is upcycling buildings and designing <br>state of the art sustainable workspaces"</br></p></h2></a></div>
-
-				</div>
-						
-					</div>
-				</div>
-			</section>
+				<!--carousel-->
+						<div class="row">
+		<div class="container">
+		  <section class="customer-logos slider" data-arrows="true">
+			<div class="slide"><img src="gulmohar-image/in-the-media/InTheNews_Yahoo.jpg" alt="IDEASHACKS Co featured @ Yahoo"></div>
+			<div class="slide"><img src="gulmohar-image/in-the-media/InTheNews_ANI.jpg" alt="IDEASHACKS Co featured @ ANI"></div>
+			<div class="slide"><img src="gulmohar-image/in-the-media/InTheNews_BS.jpg" alt="IDEASHACKS Co featured @ BS"></div>
+			<div class="slide"><img src="gulmohar-image/in-the-media/InTheNews_HT.jpg" alt="IDEASHACKS Co featured @ Hindustan Times"></div>
+			<div class="slide"><img src="gulmohar-image/in-the-media/InTheNews_IMPACTXMEDIA.jpg" alt="IDEASHACKS Co featured @ ImpactX Media"></div>
+			<div class="slide"><img src="gulmohar-image/in-the-media/InTheNews_LBB.jpg" alt="IDEASHACKS Co featured @ LBB"></div>
+			<div class="slide"><img src="gulmohar-image/in-the-media/InTheNews_ThePrint.jpg" alt="IDEASHACKS Co featured @ The Print"></div>
+			<div class="slide"><img src="gulmohar-image/in-the-media/InTheNews_Inc42.jpg" alt="IDEASHACKS Co featured @ Inc42"></div><!--
+			<div class="slide"><img src="https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/image8.png"></div>-->
+		  </section>
+		</div>
+	  </div>
+	  
+	 <script type="text/javascript">
+		$(document).ready(function() {
+ 		  $('.customer-logos').slick({
+   			slidesToShow: 6,
+    		slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 1000,
+			arrows: true,
+			dots: false,
+			pauseOnHover: false,
+			responsive: [{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 4
+			}
+			}, {
+			breakpoint: 520,
+			settings: {
+				slidesToShow: 3
+			}
+			}]
+		});
+		});
+     </script>
+						<!--endofcarousel-->
 			<!-- end Patrons section -->
 												   						   
 			<!-- Benefits Section -->
